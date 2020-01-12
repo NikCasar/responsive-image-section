@@ -39,9 +39,10 @@ section {
 }
 
 .img-flex {
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
   padding: 1rem;
-  max-width: 25em;
+  max-width: 50em;
   width: 100%;
   vertical-align: middle;
 }
